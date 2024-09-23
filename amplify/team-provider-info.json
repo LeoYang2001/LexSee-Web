@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lexiweb-dev-5f7f6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767398082152:role/amplify-lexiweb-dev-5f7f6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767398082152:role/amplify-lexiweb-dev-5f7f6-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-lexiweb-dev-5f7f6-deployment",
+      "UnauthRoleName": "amplify-lexiweb-dev-5f7f6-unauthRole",
+      "StackName": "amplify-lexiweb-dev-5f7f6",
+      "StackId": "arn:aws:cloudformation:us-east-2:767398082152:stack/amplify-lexiweb-dev-5f7f6/734d60f0-5b10-11ef-9d8f-0a4eb46a2f71",
+      "AmplifyAppId": "d3ipdxvc8gpvfj"
+    },
+    "categories": {
+      "auth": {
+        "lexiweba27c22cc": {}
+      },
+      "api": {
+        "lexiweb": {}
+      }
+    }
+  }
+}

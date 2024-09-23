@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.upperArea{
+  transition: all .4s;
+}
+.search{
+  height: 60%;
+}
+
+.typing{
+  height: 100%;
+}
+
+.detail{
+  height: 20%;
+}
+
+
+/* Apply to the section element */
+.custom-scrollbar {
+  height: 80%;
+  width: 50%;
+  overflow-y: scroll;
+}
+
+/* Webkit scrollbar styles */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.wordSuggestionItem{
+   transition: all .1s;
+}
+
+.wordSuggestionItem:hover{
+  color: rgb(104, 104, 104);
+  cursor: pointer;
+}
+
+.highlightedTab{
+  border-bottom: 4px solid white !important;
+}
+
+.detailTab{
+  transition: all .2s;
+  border-bottom: 4px solid transparent;
+
+
+}
+.detailTab:hover{
+  color: #555;
+}
+
+.hoverItem{
+  transition:  all .3s;
+}
+.hoverItem:hover{
+  filter: brightness(0.7);
 }
